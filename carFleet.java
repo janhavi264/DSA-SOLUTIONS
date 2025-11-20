@@ -18,7 +18,7 @@ class Solution {
         Stack<Double> stack = new Stack<>();
 
         // Step 4: Calculate each car’s time to reach the target
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) {remove k 
             double time = (target - cars[i][0]) / cars[i][1];
 
             // If this car’s time is greater than the top of stack, 
